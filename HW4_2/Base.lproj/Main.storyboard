@@ -77,7 +77,7 @@
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mZ7-3A-ewS">
                                                 <rect key="frame" x="0.0" y="32" width="272" height="299"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <string key="text">Меня зовут Роман, живу и учусь в Беларуси, имею множество увлечений, которые описаны во вкладке - "увлечения". К своим сильным сторонам могу отнести: пунктуальность, самодисциплинированность. Моя текущая цель - получить базу для работы junior программистом.</string>
+                                                <string key="text">Меня зовут Роман, живу и учусь в Беларуси, имею множество увлечений, которые описаны во вкладке - "увлечения". К своим сильным сторонам могу отнести: пунктуальность, самодисциплинированность, аккуратность, терпеливость. Моя текущая цель - получить базу для работы junior  iOS программистом.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>

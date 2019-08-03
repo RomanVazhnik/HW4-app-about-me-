@@ -10,16 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // outlet collections vies and labels
     @IBOutlet var mainScreenViews: [UIView]!
     @IBOutlet var mainInformationLabels: [UILabel]!
+    
     @IBOutlet var mainInformationPhotoImage: UIImageView!
     @IBOutlet var aboutMeTextView: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         setupForViews()
         setupForLabels()
         setupToUIImageView()
+        
         aboutMeTextView.isUserInteractionEnabled = false
     }
     
