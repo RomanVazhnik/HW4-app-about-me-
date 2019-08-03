@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         
         setupForViews()
         setupForLabels()
-        setupToUIImageView()
+        setupForUIImageView()
         
         aboutMeTextView.isUserInteractionEnabled = false
     }
@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         }
     }
     
-    private func setupToUIImageView() {
+    private func setupForUIImageView() {
         mainInformationPhotoImage.layer.cornerRadius = 50
         mainInformationPhotoImage.clipsToBounds = true
         mainInformationPhotoImage.layer.borderWidth = 1
