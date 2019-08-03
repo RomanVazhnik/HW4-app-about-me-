@@ -142,7 +142,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="mGR-ww-4tB">
-                                        <rect key="frame" x="8" y="39" width="272" height="106"/>
+                                        <rect key="frame" x="8" y="67" width="272" height="106"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="EWf-OR-ytg">
                                                 <rect key="frame" x="42" y="0.0" width="188" height="30"/>
@@ -212,18 +212,18 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstItem="mGR-ww-4tB" firstAttribute="centerY" secondItem="gb5-zA-lYk" secondAttribute="centerY" id="INK-fS-orB"/>
                                     <constraint firstAttribute="trailing" secondItem="mGR-ww-4tB" secondAttribute="trailing" constant="8" id="LEe-9t-KSj"/>
                                     <constraint firstAttribute="height" constant="240" id="fGH-PQ-b5u"/>
                                     <constraint firstItem="B1w-fF-cUU" firstAttribute="top" secondItem="gb5-zA-lYk" secondAttribute="top" constant="8" id="fgM-QT-TRE"/>
                                     <constraint firstItem="mGR-ww-4tB" firstAttribute="leading" secondItem="gb5-zA-lYk" secondAttribute="leading" constant="8" id="h8F-Zi-f84"/>
-                                    <constraint firstAttribute="bottom" secondItem="mGR-ww-4tB" secondAttribute="bottom" constant="95" id="kOT-Qe-9V1"/>
                                     <constraint firstItem="B1w-fF-cUU" firstAttribute="centerX" secondItem="gb5-zA-lYk" secondAttribute="centerX" id="wb4-AI-0ff"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FEQ-7D-uEL">
                                 <rect key="frame" x="16" y="268" width="288" height="240"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Нажмите на интересующее вас увлечение что бы увидеть описание..." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kkV-Ub-Dt6">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Нажмите на интересующее вас увлечение, что бы увидеть описание" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kkV-Ub-Dt6">
                                         <rect key="frame" x="8" y="43" width="272" height="189"/>
                                         <color key="backgroundColor" red="0.84400638859999999" green="0.84400638859999999" blue="0.84400638859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
